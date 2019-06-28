@@ -1,0 +1,118 @@
+{
+  "endpointId": {
+    "S": "endpoint-002"
+  },
+  "properties": {
+    "L": [
+      {
+        "M": {
+          "namespace": {
+            "S": "Alexa.BrightnessController"
+          },
+          "name": {
+            "S": "brightness"
+          },
+          "value": {
+            "N": "0"
+          },
+          "timeOfSample": {
+            "S": "2017-02-03T16:20:50.52Z"
+          },
+          "uncertaintyInMilliseconds": {
+            "N": "500"
+          }
+        }
+      },
+      {
+        "M": {
+          "namespace": {
+            "S": "Alexa.ColorController"
+          },
+          "name": {
+            "S": "color"
+          },
+          "value": {
+            "M": {
+              "hue": {
+                "N": "350.5"
+              },
+              "saturation": {
+                "N": "0.7138"
+              },
+              "brightness": {
+                "N": "0.6524"
+              }
+            }
+          },
+          "timeOfSample": {
+            "S": "2017-02-03T16:20:50.52Z"
+          },
+          "uncertaintyInMilliseconds": {
+            "N": "1000"
+          }
+        }
+      },
+      {
+        "M": {
+          "namespace": {
+            "S": "Alexa.ColorTemperatureController"
+          },
+          "name": {
+            "S": "colorTemperatureInKelvin"
+          },
+          "value": {
+            "N": "7500"
+          },
+          "timeOfSample": {
+            "S": "2017-02-03T16:20:50.52Z"
+          },
+          "uncertaintyInMilliseconds": {
+            "N": "500"
+          }
+        }
+      },
+      {
+        "M": {
+          "namespace": {
+            "S": "Alexa.PowerController"
+          },
+          "name": {
+            "S": "powerState"
+          },
+          "value": {
+            "S": "OFF"
+          },
+          "timeOfSample": {
+            "S": "2017-02-03T16:20:50.52Z"
+          },
+          "uncertaintyInMilliseconds": {
+            "N": "0"
+          }
+        }
+      },
+      {
+        "M": {
+          "namespace": {
+            "S": "Alexa.EndpointHealth"
+          },
+          "name": {
+            "S": "connectivity"
+          },
+          "value": {
+            "M": {
+              "value": {
+                "S": "OK"
+              }
+            }
+          },
+          "timeOfSample": {
+            "S": "2017-02-03T16:20:50.52Z"
+          },
+          "uncertaintyInMilliseconds": {
+            "N": "0"
+          }
+        }
+      }
+    ]
+  }
+}

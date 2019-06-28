@@ -1,0 +1,132 @@
+{
+  "endpointId": {
+    "S": "endpoint-001"
+  },
+  "friendlyName": {
+    "S": "テレビ"
+  },
+  "manufacturerName": {
+    "S": "Sony"
+  },
+  "description": {
+    "S": "Bravia X9300D"
+  },
+  "displayCategories": {
+    "L": [
+      {
+        "S": "TV"
+      }
+    ]
+  },
+  "capabilities": {
+    "L": [
+      {
+        "M": {
+          "interface": {
+            "S": "Alexa.EndpointHealth"
+          },
+          "properties": {
+            "M": {
+              "proactivelyReported": {
+                "BOOL": true
+              },
+              "retrievable": {
+                "BOOL": true
+              },
+              "supported": {
+                "L": [
+                  {
+                    "M": {
+                      "name": {
+                        "S": "connectivity"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "type": {
+            "S": "AlexaInterface"
+          },
+          "version": {
+            "S": "3"
+          }
+        }
+      },
+      {
+        "M": {
+          "interface": {
+            "S": "Alexa"
+          },
+          "type": {
+            "S": "AlexaInterface"
+          },
+          "version": {
+            "S": "3"
+          }
+        }
+      },
+      {
+        "M": {
+          "interface": {
+            "S": "Alexa.PowerController"
+          },
+          "properties": {
+            "M": {
+              "proactivelyReported": {
+                "BOOL": true
+              },
+              "retrievable": {
+                "BOOL": true
+              },
+              "supported": {
+                "L": [
+                  {
+                    "M": {
+                      "name": {
+                        "S": "powerState"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "type": {
+            "S": "AlexaInterface"
+          },
+          "version": {
+            "S": "3"
+          }
+        }
+      },
+      {
+        "M": {
+          "interface": {
+            "S": "Alexa.ChannelController"
+          },
+          "type": {
+            "S": "AlexaInterface"
+          },
+          "version": {
+            "S": "3"
+          }
+        }
+      },
+      {
+        "M": {
+          "interface": {
+            "S": "Alexa.StepSpeaker"
+          },
+          "type": {
+            "S": "AlexaInterface"
+          },
+          "version": {
+            "S": "3"
+          }
+        }
+      }
+    ]
+  }
+}

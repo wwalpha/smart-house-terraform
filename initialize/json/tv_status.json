@@ -1,0 +1,51 @@
+{
+  "endpointId": {
+    "S": "endpoint-001"
+  },
+  "properties": {
+    "L": [
+      {
+        "M": {
+          "namespace": {
+            "S": "Alexa.PowerController"
+          },
+          "name": {
+            "S": "powerState"
+          },
+          "value": {
+            "S": "ON"
+          },
+          "timeOfSample": {
+            "S": "2017-02-03T16:20:50.52Z"
+          },
+          "uncertaintyInMilliseconds": {
+            "N": "0"
+          }
+        }
+      },
+      {
+        "M": {
+          "namespace": {
+            "S": "Alexa.EndpointHealth"
+          },
+          "name": {
+            "S": "connectivity"
+          },
+          "value": {
+            "M": {
+              "value": {
+                "S": "OK"
+              }
+            }
+          },
+          "timeOfSample": {
+            "S": "2017-02-03T16:20:50.52Z"
+          },
+          "uncertaintyInMilliseconds": {
+            "N": "0"
+          }
+        }
+      }
+    ]
+  }
+}

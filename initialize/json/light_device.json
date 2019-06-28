@@ -1,0 +1,208 @@
+{
+  "capabilities": {
+    "L": [
+      {
+        "M": {
+          "interface": {
+            "S": "Alexa"
+          },
+          "type": {
+            "S": "AlexaInterface"
+          },
+          "version": {
+            "S": "3"
+          }
+        }
+      },
+      {
+        "M": {
+          "interface": {
+            "S": "Alexa.BrightnessController"
+          },
+          "properties": {
+            "M": {
+              "proactivelyReported": {
+                "BOOL": true
+              },
+              "retrievable": {
+                "BOOL": true
+              },
+              "supported": {
+                "L": [
+                  {
+                    "M": {
+                      "name": {
+                        "S": "brightness"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "type": {
+            "S": "AlexaInterface"
+          },
+          "version": {
+            "S": "3"
+          }
+        }
+      },
+      {
+        "M": {
+          "interface": {
+            "S": "Alexa.ColorController"
+          },
+          "properties": {
+            "M": {
+              "proactivelyReported": {
+                "BOOL": true
+              },
+              "retrievable": {
+                "BOOL": true
+              },
+              "supported": {
+                "L": [
+                  {
+                    "M": {
+                      "name": {
+                        "S": "color"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "type": {
+            "S": "AlexaInterface"
+          },
+          "version": {
+            "S": "3"
+          }
+        }
+      },
+      {
+        "M": {
+          "interface": {
+            "S": "Alexa.ColorTemperatureController"
+          },
+          "properties": {
+            "M": {
+              "proactivelyReported": {
+                "BOOL": true
+              },
+              "retrievable": {
+                "BOOL": true
+              },
+              "supported": {
+                "L": [
+                  {
+                    "M": {
+                      "name": {
+                        "S": "colorTemperatureInKelvin"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "type": {
+            "S": "AlexaInterface"
+          },
+          "version": {
+            "S": "3"
+          }
+        }
+      },
+      {
+        "M": {
+          "interface": {
+            "S": "Alexa.PowerController"
+          },
+          "properties": {
+            "M": {
+              "proactivelyReported": {
+                "BOOL": true
+              },
+              "retrievable": {
+                "BOOL": true
+              },
+              "supported": {
+                "L": [
+                  {
+                    "M": {
+                      "name": {
+                        "S": "powerState"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "type": {
+            "S": "AlexaInterface"
+          },
+          "version": {
+            "S": "3"
+          }
+        }
+      },
+      {
+        "M": {
+          "interface": {
+            "S": "Alexa.EndpointHealth"
+          },
+          "properties": {
+            "M": {
+              "proactivelyReported": {
+                "BOOL": true
+              },
+              "retrievable": {
+                "BOOL": true
+              },
+              "supported": {
+                "L": [
+                  {
+                    "M": {
+                      "name": {
+                        "S": "connectivity"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "type": {
+            "S": "AlexaInterface"
+          },
+          "version": {
+            "S": "3"
+          }
+        }
+      }
+    ]
+  },
+  "description": {
+    "S": "HK9496"
+  },
+  "displayCategories": {
+    "L": [
+      {
+        "S": "LIGHT"
+      }
+    ]
+  },
+  "endpointId": {
+    "S": "endpoint-002"
+  },
+  "friendlyName": {
+    "S": "照明"
+  },
+  "manufacturerName": {
+    "S": "Panasonic"
+  }
+}

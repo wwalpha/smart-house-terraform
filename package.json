@@ -1,0 +1,19 @@
+{
+  "name": "smart-house-terraform",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn initialize:apply && yarn architecture:apply",
+    "start:plan1": "yarn initialize:plan",
+    "start:plan2": "yarn initialize:plan",
+    "initialize:plan": "cd initialize && terraform plan",
+    "initialize:apply": "cd initialize && terraform apply -auto-approve",
+    "architecture:plan": "cd architecture && terraform plan",
+    "architecture:apply": "cd architecture && terraform apply -auto-approve",
+    "destroy": "terraform destroy",
+    "nocolor:start": "yarn nocolor:init && yarn nocolor:app",
+    "nocolor:inits": "terraform init -no-color src",
+    "nocolor:app": "terraform apply  -no-color -var-file envs/terraform.tfvars src"
+  }
+}
